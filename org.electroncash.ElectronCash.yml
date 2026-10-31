@@ -54,7 +54,7 @@ modules:
         sha256: 2e6c1720118c812acf0079fd47cf91b6bfaba5d766c321c4d3d2a28d6a11a8ed
         x-checker-data:
           type: anitya
-          project-id: 1367
+          project-id: 4991
           url-template: https://dist.torproject.org/tor-$version.tar.gz
     post-install:
       - install -d ${FLATPAK_DEST}/lib/electroncash/tor/bin
@@ -129,7 +129,7 @@ modules:
         commit: 9d500949b38dd181a986382eb0c2f6061b829fec
         x-checker-data:
           type: anitya
-          project-id: 10603
+          project-id: 110816
           version-pattern: ^([\d.]+)$
           tag-template: $version
       - type: file
